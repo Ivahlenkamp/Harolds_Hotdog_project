@@ -13,4 +13,4 @@ Program](https://www.facebook.com/wnccitprogram/)
 src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
 This work is licensed under a [Creative Commons Attribution-NonCommercialShareAlike 4.0 International
 License](http://creativecommons.org/licenses/by-nc-sa/4.0/)</a>.
-Copyright (c) 2023 William A Loring
+Copyright (c) 2023 Isaac B Vahlenkamp
