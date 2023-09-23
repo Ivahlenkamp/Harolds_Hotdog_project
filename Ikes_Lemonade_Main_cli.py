@@ -12,6 +12,12 @@ def get_input():
     num_of_lemonades = int(input("Quantity of Lemonades purchased: "))
     return num_of_lemonades
 
+def display_menu():
+    print("Ikes Lemonade Menu")
+    menu_items = Ikes_Lemonade.get_menu_items()
+    menu_prices = Ikes_Lemonade.get_menu_prices()
+    for item, price in zip(menu_items, menu_prices):
+        print(F"{item}: ${price:.2f}")
 
 def display():
     # TODO: Display transaction to customer
@@ -26,4 +32,5 @@ Ikes_Lemonade = Get_Lemonade.IkesLemonade()
 num_of_lemonades = get_input()
 
 Ikes_Lemonade.calculate(num_of_lemonades)
+display_menu()
 display()
